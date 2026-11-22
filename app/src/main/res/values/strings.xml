@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">广告跳过助手</string>
+    <string name="service_name">广告跳过助手 · 自动点跳过</string>
+    <string name="service_desc">检测开屏广告上的“跳过”按钮并自动点击；识别“摇一摇”广告并尽快跳过。不收集任何个人信息。</string>
+    <string name="xposed_desc">在勾选的应用中屏蔽陀螺仪和加速度计，让“摇一摇”广告失效</string>
+</resources>
