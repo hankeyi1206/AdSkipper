@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>广告跳过助手 AdSkipper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+  </head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <img class="hero__img" src="hero.jpg" alt="深色石板桌面上的手机，屏幕显示已开启的绿色开关" />
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Android 小工具 · v1.0</p>
+            <h1>广告跳过助手 AdSkipper</h1>
+            <p class="hero__sub">自动跳过开屏广告，顺手治好"摇一摇"广告。轻巧、免费、开源。</p>
+          </div>
+          <aside class="callout" aria-label="下一步">
+            <p class="callout__head"><span class="hark-mark" data-size="16"></span> 下一步</p>
+            <p class="callout__lead"><strong>下载安装包，装到手机上。</strong> 跟着下面四步开启即可。</p>
+            <div class="links">
+              <a class="btn" href="https://github.com/hankeyi1206/AdSkipper/releases/download/v1.0/AdSkipper-v1.0.apk" target="_blank" rel="noopener">下载 APK v1.0</a>
+            </div>
+            <p class="fineprint"><a class="link" href="https://github.com/hankeyi1206/AdSkipper" target="_blank" rel="noopener">在 GitHub 查看源码</a></p>
+          </aside>
+        </section>
+
+        <section class="stats">
+          <div class="stat"><span class="stat__fig">约 600 KB</span><span class="stat__label">安装包</span></div>
+          <div class="stat"><span class="stat__fig">7.0+</span><span class="stat__label">支持 Android 7.0 及以上</span></div>
+          <div class="stat"><span class="stat__fig">0</span><span class="stat__label">不联网、不收集任何信息</span></div>
+          <div class="stat"><span class="stat__fig">MIT</span><span class="stat__label">开源免费</span></div>
+        </section>
+
+        <section class="section" id="features" data-nav="功能">
+          <div class="head">
+            <p class="head__eyebrow">功能</p>
+            <h2>三招对付烦人的广告。</h2>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>自动跳过开屏广告</h3>
+              <p>通过无障碍服务识别"跳过 / 5s 跳过 / Skip"等按钮并自动点击。</p>
+            </div>
+            <div>
+              <h3>对付"摇一摇"广告</h3>
+              <p>页面出现"摇一摇 / 摇动手机 / 扭一扭"时，更积极地寻找跳过按钮。</p>
+            </div>
+            <div>
+              <h3>拦截陀螺仪 <span class="pill">可选</span></h3>
+              <p>LSPosed 模块：在你勾选的应用中屏蔽陀螺仪、加速度计、旋转矢量等运动传感器，让摇一摇广告彻底失效。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="install" data-nav="安装">
+          <div class="head">
+            <p class="head__eyebrow">安装与使用</p>
+            <h2>四步装好，第四步可跳过。</h2>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <div class="step__intro"><p class="step__num">01</p><p class="step__eyebrow">下载安装</p></div>
+              <div>
+                <h3>下载 AdSkipper-v1.0.apk 并安装</h3>
+                <p>如提示"未知来源"，允许浏览器安装应用。</p>
+                <div class="links">
+                  <a class="btn" href="https://github.com/hankeyi1206/AdSkipper/releases/download/v1.0/AdSkipper-v1.0.apk" target="_blank" rel="noopener">下载 APK v1.0</a>
+                </div>
+              </div>
+            </article>
+            <article class="step">
+              <div class="step__intro"><p class="step__num">02</p><p class="step__eyebrow">开启服务</p></div>
+              <div>
+                <h3>开启无障碍服务</h3>
+                <p>打开应用，点"开启无障碍服务"，找到"广告跳过助手"打开。</p>
+              </div>
+            </article>
+            <article class="step">
+              <div class="step__intro"><p class="step__num">03</p><p class="step__eyebrow">华为 / 荣耀等机型</p></div>
+              <div>
+                <h3>防止被后台清理</h3>
+                <p>设置 → 应用 → 应用启动管理，把它设为手动管理并全部允许。</p>
+              </div>
+            </article>
+            <article class="step">
+              <div class="step__intro"><p class="step__num">04</p><p class="step__eyebrow">可选</p></div>
+              <div>
+                <h3>启用 LSPosed 模块</h3>
+                <ul class="step__pills"><li>需要 <b>Root</b></li><li>需要 <b>LSPosed</b></li></ul>
+                <p>LSPosed 管理器 → 模块 → 启用"广告跳过助手" → 勾选广告多的应用 → 强行停止这些应用后重新打开。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="tips" data-nav="提示">
+          <div class="head">
+            <p class="head__eyebrow">小技巧与注意事项</p>
+            <h2>没有 Root 也能关传感器。</h2>
+          </div>
+          <div class="pair">
+            <div class="aside">
+              <h3>没有 Root 的小技巧</h3>
+              <p class="fineprint">开发者选项 → 快捷设置开发者图块 → 打开"传感器已关闭"。需要时在下拉栏一键关闭所有传感器。</p>
+            </div>
+            <aside class="callout" aria-label="注意事项">
+              <p class="callout__head">注意事项</p>
+              <p class="callout__lead"><strong>被 LSPosed 勾选的应用会失去重力感应。</strong> 体感游戏、计步、摇一摇等功能也会失效。</p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section" id="source" data-nav="开源">
+          <div class="head">
+            <p class="head__eyebrow">开源信息</p>
+            <h2>代码全公开，可自己编译。</h2>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>技术栈</h3>
+              <ul>
+                <li>Kotlin</li>
+                <li>AccessibilityService</li>
+                <li>Xposed API 82</li>
+                <li>minSdk 24 / targetSdk 34</li>
+              </ul>
+            </div>
+            <div>
+              <h3>自己编译</h3>
+              <p>可 fork 仓库，GitHub Actions 自动编译 APK。</p>
+            </div>
+            <div>
+              <h3>许可证 MIT</h3>
+              <p>免费使用、修改和分发。</p>
+            </div>
+          </div>
+          <div class="links">
+            <a class="btn" href="https://github.com/hankeyi1206/AdSkipper/releases/tag/v1.0" target="_blank" rel="noopener">Release 页面</a>
+            <a class="btn" href="https://github.com/hankeyi1206/AdSkipper" target="_blank" rel="noopener">在 GitHub 查看源码</a>
+          </div>
+        </section>
+      </main>
+      <footer class="foot">
+        <p>广告跳过助手 AdSkipper v1.0 · MIT 开源 · 不联网、不收集任何信息。</p>
+        <nav aria-label="返回各部分" data-auto></nav>
+        <a class="badge" href="https://hark.com/" target="_blank" rel="noopener"><span class="hark-mark"></span><span>built by hark</span></a>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
